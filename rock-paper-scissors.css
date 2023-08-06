@@ -1,0 +1,168 @@
+body{
+     background-color:rgb(10, 10, 10);
+     color:white;
+     font-family:Arial;
+     align-items: center;
+}
+.title{
+     font-size: 30px;
+     font-weight: bold;
+     text-shadow: 3px 3px 3px rgba(145, 29, 29, 0.7);
+     text-align: center;
+     margin-bottom: 35px;
+}
+.move-icon{
+     height: 50px;
+}
+.move-button{
+     height: 120px;
+     width: 120px;
+     border-radius: 60px;
+     background-color: transparent;
+     border: 3px solid white;
+     margin-right: 15px;
+     cursor: pointer;
+     transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.move-button:hover {
+  background-color: rgb(207, 38, 38);
+  color: white;
+  transform: scale(1.1);
+}
+.result{
+     background-color: rgb(20, 20, 20);;
+     font-size: 25px;
+     font-weight: bold;
+     color: rgb(5, 161, 5);
+     text-shadow: 3px 3px 3px rgba(32, 65, 1, 0.7);
+     margin-top: 60px;
+     box-shadow: 1px 1px 20px 4px rgba(61, 61, 61, 0.5);
+     padding: 15px ;
+     letter-spacing: 3px;
+     transition: transform 0.2s ease;
+     margin-left: 120px;
+     margin-right: 120px;
+}
+
+.result:hover {
+  transform: scale(1.05);
+}
+
+.moves{
+font-size: 20px;
+margin-left: 25px;
+
+}
+
+.score{
+     margin-top:60px;
+     text-align:center;
+     font-size: 18px;
+     font-weight: bold;
+}
+.reset-score-button{
+     background-color: white;
+     border: none;
+     font-size:15px;
+     padding: 8px 15px;
+     cursor: pointer;
+     margin: 8px;
+     font-weight: 550;
+     transition: transform 0.2s ease;
+
+}
+.reset-score-button:hover{
+     background-color: rgb(207, 38, 38);
+     color: white;
+  transform: scale(1.05);
+
+}
+
+.container{
+     background-color:rgb(25, 25, 25);
+     position: relative;
+     box-shadow: 1px 1px 25px 5px rgba(248, 0, 0, 0.5) inset;
+     margin-left:20% ;
+     margin-right: 20%;
+     margin-bottom:10% ;
+     margin-top: 10%;
+     padding: 20px 20px;
+     padding-bottom: 30px;
+     text-align: center;
+     row-gap: 30px;
+     max-width: 900px;
+     min-width: 300px;
+     align-content: center;
+ }
+.card{
+text-align: center;
+padding: 20px 40px;
+
+}
+.card2{
+     text-align: center;
+padding: 20px 40px;
+
+}
+@media only screen and (max-width: 500px){
+.container{
+     margin: 10% 5%;
+     width: 80%;
+}
+
+}
+@media only screen and (min-width: 500px) {
+     .container{
+          margin: 10% 15%;
+          max-width: 900px;
+          min-width: 300px;
+          margin-left:15% ;
+     margin-right: 15%;
+     margin-bottom:10% ;
+     margin-top: 10%;
+     text-align: center;
+     min-height: 600px;
+
+     }
+   
+     .score{
+          
+          font-size: 18px;
+          
+     }
+     .title{
+          font-size: 28px;
+
+     }
+     .reset-score-button{
+          font-size:18px;
+     }
+}
+@media only screen and (min-width: 900px) 
+{
+     .container {
+          position: relative;
+          max-width: 900px;
+          min-width: 500px;
+          margin-left:15% ;
+     margin-right: 15%;
+     margin-bottom:10% ;
+     margin-top: 10%;
+     text-align: center;
+     min-height: 600px;
+        }
+     
+     .score{
+          
+          font-size: 24px;
+          
+     }
+     .title{
+          font-size: 35px;
+
+     }
+     .reset-score-button{
+          font-size:20px;
+     }
+}
