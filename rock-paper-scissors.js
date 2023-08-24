@@ -59,7 +59,7 @@ function playGame(playerMove) {
 
 document.querySelector('.js-moves')
 .innerHTML = `you
-<img src="images/${playerMove}-emoji.png" class="move-icon">
+<img src="images/${playerMove}-emoji.png" class="move-icon"> 
 <img src="images/${computerMove}-emoji.png" class="move-icon">
 Computer`;
 
@@ -69,7 +69,7 @@ Computer`;
 
 function updateScoreElement(){
      document.querySelector('.js-score')
-     .innerHTML = `🏆 wins : ${score.wins}.   💔 Losses : ${score.losses}.   🤝 Ties : ${score.ties}.`;
+     .innerHTML = `🏆 wins : ${score.wins}   💔 Losses : ${score.losses}   🤝 Ties : ${score.ties}`;
 }
 function pickComputerMove() {
      randomNumber = Math.random();

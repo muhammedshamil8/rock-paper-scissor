@@ -41,8 +41,8 @@ body{
      padding: 15px ;
      letter-spacing: 3px;
      transition: transform 0.2s ease;
-     margin-left: 120px;
-     margin-right: 120px;
+     /* margin-left: 120px; */
+     /* margin-right: 120px; */
 }
 
 .result:hover {
@@ -105,22 +105,27 @@ padding: 20px 40px;
 padding: 20px 40px;
 
 }
-@media only screen and (max-width: 500px){
+/* @media  screen and (max-width: 600px){
 .container{
-     margin: 10% 5%;
-     width: 80%;
-}
+     margin-left:2px ;
+     margin-right: 2px;
+     margin-bottom:1px ;
+     margin-top: 1px;
+     width: 100%;
 
 }
-@media only screen and (min-width: 500px) {
+
+} */
+
+@media  screen and  (min-width: 100px) {
      .container{
-          margin: 10% 15%;
+          margin: 5px 5px;
           max-width: 900px;
           min-width: 300px;
-          margin-left:15% ;
+          /* margin-left:15% ;
      margin-right: 15%;
      margin-bottom:10% ;
-     margin-top: 10%;
+     margin-top: 10%; */
      text-align: center;
      min-height: 600px;
 
@@ -128,7 +133,7 @@ padding: 20px 40px;
    
      .score{
           
-          font-size: 18px;
+          font-size: 14px;
           
      }
      .title{
@@ -138,9 +143,21 @@ padding: 20px 40px;
      .reset-score-button{
           font-size:18px;
      }
+     .move-icon{
+          height: 40px;
+     }
+     .move-button{
+          height: 90px;
+          width: 90px;
+     }
+     
 }
-@media only screen and (min-width: 900px) 
+@media only screen and (min-width: 800px) 
 {
+     .result{
+          margin-left: 120px; 
+     margin-right: 120px;
+     }
      .container {
           position: relative;
           max-width: 900px;
